@@ -52,6 +52,39 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 ---------------------------------------------------------------------- */
 
 
+/*-------------------*Aboutus Page----------------------*/
+
+
+#titlebar.photo-bg {
+    background-color: #222;
+    background-position: 75% center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    overflow: hidden;
+    padding: 50px 0 !important;
+}
+
+
+#titlebar.photo-bg::before {
+    background-color: rgba(34, 34, 34, 0.20) !important;
+    content: "";
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Accessibility
